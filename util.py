@@ -48,8 +48,8 @@ if "QYWX_APP" in os.environ and os.environ["QYWX_APP"]:
     QYWX_APP = os.environ["QYWX_APP"]
 if "PUSH_PLUS_TOKEN" in os.environ and os.environ["PUSH_PLUS_TOKEN"]:
     PUSH_PLUS_TOKEN = os.environ["PUSH_PLUS_TOKEN"]
-    if "PUSH_PLUS_USER" in os.environ["PUSH_PLUS_USER"]:
-        PUSH_PLUS_USER = os.environ["PUSH_PLUS_USER"]
+if "PUSH_PLUS_USER" in os.environ and os.environ["PUSH_PLUS_USER"]:
+    PUSH_PLUS_USER = os.environ["PUSH_PLUS_USER"]
 
 
 if BARK:
